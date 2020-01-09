@@ -1,0 +1,23 @@
+{
+  "name": "xkcd-srv",
+  "version": "1.0.0",
+  "description": "Serving a random XKCD comic for your enjoyment.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lthielmann/xkcd-srv.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "xkcd"
+  ],
+  "author": "Lars Thielmann",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.0",
+    "xkcd-api": "^1.2.0"
+  }
+}
